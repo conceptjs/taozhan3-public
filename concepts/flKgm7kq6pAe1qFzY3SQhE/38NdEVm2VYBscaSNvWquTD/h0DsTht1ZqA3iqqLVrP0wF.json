@@ -26,6 +26,16 @@
       "str" : "conceptjs"
     }
   }, {
+    "name" : "_repo_lastSyncAction",
+    "expr" : {
+      "str" : "push"
+    }
+  }, {
+    "name" : "_repo_lastSyncTime",
+    "expr" : {
+      "str" : "2015-02-19T18:56:56.646Z"
+    }
+  }, {
     "name" : "repo",
     "expr" : {
       "concept" : "/common/core/NR8d-ezEsVB0v465tpkyi3/",
@@ -33,7 +43,9 @@
         "repoUri" : "_repo_repoUri",
         "gitHubRepo" : "_repo_gitHubRepo",
         "gitHubBranch" : "_repo_gitHubBranch",
-        "gitHubUsername" : "_repo_gitHubUsername"
+        "gitHubUsername" : "_repo_gitHubUsername",
+        "lastSyncAction" : "_repo_lastSyncAction",
+        "lastSyncTime" : "_repo_lastSyncTime"
       }
     }
   } ],
