@@ -1,0 +1,45 @@
+{
+  "uri" : "local://4Y8dDO4noo8C1KfNJ5XQzE/",
+  "name" : "taozhan3_IMG_0873.JPG",
+  "category" : "",
+  "parent" : "local://flKgm7kq6pAe1qFzY3SQhE/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "type",
+    "expr" : {
+      "str" : "image/jpeg"
+    }
+  }, {
+    "name" : "attachmentLink",
+    "expr" : {
+      "str" : "db://taozhan3/a2dc8e49-311e-46ff-9ec7-9a57b0a403b6/"
+    }
+  }, {
+    "name" : "filename",
+    "expr" : {
+      "str" : "IMG_0873.JPG"
+    }
+  }, {
+    "name" : "_resource_content",
+    "expr" : {
+      "str" : "",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "resource",
+    "expr" : {
+      "concept" : "/common/core/0aqCL5Sms3AsMqfWAwxCi8/",
+      "bindings" : {
+        "content" : "_resource_content",
+        "type" : "type",
+        "filename" : "filename",
+        "attachmentLink" : "attachmentLink"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "resource"
+  } ],
+  "isLambda" : false
+}

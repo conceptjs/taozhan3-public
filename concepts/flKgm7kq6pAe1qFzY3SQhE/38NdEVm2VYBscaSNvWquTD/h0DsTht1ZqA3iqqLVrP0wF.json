@@ -1,0 +1,44 @@
+{
+  "uri" : "local://h0DsTht1ZqA3iqqLVrP0wF/",
+  "name" : "taozhan3-public Mgt Concept",
+  "category" : "",
+  "parent" : "local://38NdEVm2VYBscaSNvWquTD/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_repo_repoUri",
+    "expr" : {
+      "str" : "/taozhan3/public/"
+    }
+  }, {
+    "name" : "_repo_gitHubRepo",
+    "expr" : {
+      "str" : "taozhan3-public"
+    }
+  }, {
+    "name" : "_repo_gitHubBranch",
+    "expr" : {
+      "str" : "master"
+    }
+  }, {
+    "name" : "_repo_gitHubUsername",
+    "expr" : {
+      "str" : "conceptjs"
+    }
+  }, {
+    "name" : "repo",
+    "expr" : {
+      "concept" : "/common/core/NR8d-ezEsVB0v465tpkyi3/",
+      "bindings" : {
+        "repoUri" : "_repo_repoUri",
+        "gitHubRepo" : "_repo_gitHubRepo",
+        "gitHubBranch" : "_repo_gitHubBranch",
+        "gitHubUsername" : "_repo_gitHubUsername"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "repo"
+  } ],
+  "isLambda" : false
+}

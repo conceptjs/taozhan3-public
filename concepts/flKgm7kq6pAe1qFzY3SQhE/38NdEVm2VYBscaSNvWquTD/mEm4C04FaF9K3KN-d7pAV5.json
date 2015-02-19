@@ -1,0 +1,27 @@
+{
+  "uri" : "local://mEm4C04FaF9K3KN-d7pAV5/",
+  "name" : "Fork Repo",
+  "category" : ".forkrepo",
+  "parent" : "local://38NdEVm2VYBscaSNvWquTD/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_forkRepo_repoMgtUri",
+    "expr" : {
+      "str" : "",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "forkRepo",
+    "expr" : {
+      "concept" : "/common/core/BpxM54FhXkAr_qnSphm-O6/",
+      "bindings" : {
+        "repoMgtUri" : "_forkRepo_repoMgtUri"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "forkRepo"
+  } ],
+  "isLambda" : false
+}

@@ -1,0 +1,44 @@
+{
+  "uri" : "local://-bShTD8KPoASU48vgX7EV3/",
+  "name" : "IMG_0850.JPG",
+  "category" : "",
+  "parent" : "local://flKgm7kq6pAe1qFzY3SQhE/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "type",
+    "expr" : {
+      "str" : "image/jpeg"
+    }
+  }, {
+    "name" : "attachmentLink",
+    "expr" : {
+      "str" : "db://taozhan3/03cf1703-c157-47a8-acd9-848c820292c1/"
+    }
+  }, {
+    "name" : "filename",
+    "expr" : {
+      "str" : "IMG_0850.JPG"
+    }
+  }, {
+    "name" : "maxAge",
+    "expr" : {
+      "num" : -1
+    }
+  }, {
+    "name" : "resource",
+    "expr" : {
+      "concept" : "/common/core/BLTv0pGnFoAPG4Q4YV8KS1/",
+      "bindings" : {
+        "type" : "type",
+        "attachmentLink" : "attachmentLink",
+        "filename" : "filename",
+        "maxAge" : "maxAge"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "resource"
+  } ],
+  "isLambda" : false
+}
